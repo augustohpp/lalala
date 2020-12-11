@@ -29,7 +29,7 @@
                 <li class="nav-item {{ (request()->is('lista')) || (request()->is('cadastro'))  ? 'active' : '' }}">
                     <a data-toggle="collapse" aria-expanded="false" aria-controls="collapseOne" href="#base">
                         <i class="fas fa-users"></i>
-                        <p>Exemplo</p>
+                        <p>Clientes</p>
                         <span class="caret"></span>
                     </a>
                     <div class="expandable collapse {{ (request()->routeIs('cadastro')) || (request()->routeIs('lista')) || (request()->routeIs('pdf')) ? 'show' : '' }}"
@@ -56,7 +56,7 @@
                 <li class="nav-item">
                     <a data-toggle="collapse" href="#sidebarLayouts">
                         <i class="fas fa-sun" style="font-size:20px" actived></i>
-                        <p>Opção 2</p>
+                        <p>Barbearia</p>
                         <span class="caret"></span>
                     </a>
                     <div class="expandable collapse" id="sidebarLayouts">
@@ -77,7 +77,7 @@
                 <li class="nav-item">
                     <a data-toggle="collapse" href="#sidebarLayouts2">
                         <i class="fas fa-bed" actived></i>
-                        <p>Opção 3</p>
+                        <p>Loja</p>
                         <span class="caret"></span>
                     </a>
                     <div class="expandable collapse" id="sidebarLayouts2">

@@ -3,7 +3,7 @@
 
     <div class="container-fluid">
         <a href="/">
-            <img src="{{url('assets/img/logo_prefeitura.png')}}" alt="Logo Prefeitura" class="img-navbar">
+            <img src="{{url('assets/img/ESPAÇO.png')}}" alt="Logo Prefeitura" class="img-thumbnail">
         </a>
         <h2 style="color: white" class="brand-logo nav-title">Nome do Projeto</h2>
         <a class="nav-item" href="{{ route('logout') }}" onclick="event.preventDefault();
